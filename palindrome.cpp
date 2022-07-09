@@ -4,24 +4,24 @@
 using namespace std;
 int main()
 {
-    char original[5], reversed[5];
-    cout<<"Enter a word: ";
-    cin>>original;
-    for(int i = 0; i < strlen(original); i++)
+    char word[5];
+    bool flag;
+    cout<<"Enter a word (no more than 5 characters): ";
+    cin>>word;
+    for(int i = 0; i < 5; i++)
     {
-        for(int j = strlen(original) - 1; j >= 0; j--)
+        for(int j = 5; j >= 0; j--)
         {
-            reversed[i] = original[j];
+            flag = word[i]==word[j]? true: false;
         }
     }
-    int isSame = strcmp(original, reversed);
-    if(isSame == 1)
+    if(flag)
     {
-        cout<<"This is a palindrome.";
+        cout<<"You entered a palindrome word.";
     }
     else
     {
-        cout<<"This is not a palindrome.";
+        cout<<"This is a normal word.";
     }
     return 0;
 }
