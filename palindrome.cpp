@@ -4,24 +4,29 @@
 using namespace std;
 int main()
 {
-    char word[5];
-    bool flag;
-    cout<<"Enter a word (no more than 5 characters): ";
-    cin>>word;
-    for(int i = 0; i < 5; i++)
+    int size;
+    char str[size], newstr[size];
+    int ans=0;
+    cout<<"enter a name and its size: ";
+    cin>>str>>size;
+    for(int i=strlen(str)-1; i>-1; i--)
     {
-        for(int j = 5; j >= 0; j--)
-        {
-            flag = word[i]==word[j]? true: false;
-        }
+        newstr[i]=str[i];
+        cout<<newstr[i];
     }
-    if(flag)
+        cout<<endl;
+    for(int i=0; i<size;i++){
+    if(str[i]==newstr[size-i-1])
     {
-        cout<<"You entered a palindrome word.";
+        ans++;
     }
-    else
+    }
+    if(ans==size)
     {
-        cout<<"This is a normal word.";
+        cout<<"It is palindrome";
+    }
+    else{
+        cout<<"Not a palindrome";
     }
     return 0;
 }
