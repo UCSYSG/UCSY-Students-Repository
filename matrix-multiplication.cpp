@@ -11,7 +11,7 @@ int main()
     {
         for(int j = 0; j < 2; j++)
         {
-            cout<<A[i][j]<<"\t";
+            cout<<B[i][j]<<"\t";
         }
         cout<<endl;
     }
