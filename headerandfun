@@ -1,0 +1,145 @@
+HEADER FILES 			USES 
+============			====
+
+1.stdio				scanf() 
+				printf()
+				
+2.iostream			cin 
+				cout 
+			
+3.cstring			strlen()
+  				strcmp()
+				strcpy()
+				strcat()
+
+4.math				sqrt()
+  cmath				log2()
+				pow()
+				
+5.iomanip			setprecision()
+				setw()
+				setfill()
+				setiosflags()
+
+
+				
+9.fstream			ifstream
+				ofstream
+				fstream
+				
+10.time				date()	
+   ctime			time()	
+				setdate()
+				getdate()
+				
+11.conio			clrscr()
+				getch()
+				getche()  
+				
+12.ctype 			islower()
+
+13.stdlib			exit() 
+	
+14.process			exit() 
+
+14.cstdlib 			srand() 
+				rand() 
+				atoi()
+				atof()
+				
+15.string 			string
+				getline() 
+				erase()
+				replace()
+				insert()
+				append()
+				find()
+				size()
+				length()
+				compare()
+				at()
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+===============================================
+				
+II ESCAPE SEQUENCE 
+-------------------
+
+\a	=	bell
+\b	= 	backspace	
+\f	= 	formfeed	
+\n 	= 	newline
+\r 	= 	return
+\t	= 	tab
+\\	= 	backslash
+\'	= 	single quote
+\"	= 	double quote
+\xdd	= 	hexadecimal notation\
+\x9c    = 	hex character constant 
+
+===============================================
+
+iii.Data Types Order
+--------------------
+
+long double > double > float > long > int > short > char 
+
+===============================================
+
+relationship between pound , shelling , pence 
+
+1pound		= 20 shelling
+1shelling 	= 12 pence 
+1pound		= 240 pence 
+
+===============================================
+
+Cel - Feh
+
+F = 1.8C + 32 ;
+
+Feh - Cel
+
+C = ( F - 32 ) / 1.8 
+ 	
+===============================================
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				
